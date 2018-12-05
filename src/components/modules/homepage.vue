@@ -13,6 +13,45 @@
       <span class="bulletin-title"></span><span class="bulletin-text">{{msg}}}</span>
       <i class="icon-keyboard_arrow_right"></i>
     </div>
+    <!--应用展示-->
+    <div class="apps">
+      <div>
+        <img src="../../common/image/chart.png"/>
+        <span>统计图表</span>
+      </div>
+      <div>
+        <img src="../../common/image/data.png"/>
+        <span>加载更多</span>
+      </div>
+      <div>
+        <img src="../../common/image/note.png"/>
+        <span>我的备忘</span>
+      </div>
+      <div>
+        <img src="../../common/image/workflow.png"/>
+        <span>其它测试</span>
+      </div>
+    </div>
+
+    <div class="apps">
+      <div>
+        <img src="../../common/image/css3.png"/>
+        <span>Sass测试</span>
+      </div>
+      <div>
+        <img src="../../common/image/i18n.png"/>
+        <span>国际化测试</span>
+      </div>
+      <div>
+        <img src="../../common/image/calendar.png"/>
+        <span>日历测试</span>
+      </div>
+      <div>
+        <img src="../../common/image/editor.png"/>
+        <span>富文本测试</span>
+      </div>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -65,4 +104,21 @@
         font-size: 10px
         right: 12px
         top: 8px
+    .apps
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+      flex-wrap: wrap
+      div
+        display: flex
+        height: 70px
+        width: 25%
+        justify-content: center
+        align-items: center
+        span
+          margin-top: 5px;
+          font-size: 10px;
+      img
+        height: 40px;
+        width: 40px;
 </style>
