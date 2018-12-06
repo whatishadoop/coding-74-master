@@ -23,6 +23,7 @@ const routes = [{
 }, {
   path: '/investmentpage',
   component: investmentpage,
+  redirect: '/investmentpage/goods',
   children: [
     ...investmentrouter
   ]

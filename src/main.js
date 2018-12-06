@@ -5,12 +5,13 @@ import i18n from 'common/i18n/index.js';
 import router from './router/index.js';
 import 'common/stylus/index.styl';
 import 'lib-flexible';
-
 import Mint from 'mint-ui';
 import 'mint-ui/lib/style.css';
-
+// 引入echarts
+import echarts from 'echarts';
 // 引入mintui
 Vue.use(Mint);
+Vue.prototype.$echarts = echarts;
 Vue.use(VueResource);
 
 /* eslint-disable no-new */

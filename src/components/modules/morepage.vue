@@ -1,6 +1,6 @@
 <template>
     <div>
-      更多页面
+      {{$t('brands.nike')}}
     </div>
 </template>
 

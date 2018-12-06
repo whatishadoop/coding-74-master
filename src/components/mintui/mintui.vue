@@ -30,23 +30,23 @@
 
     <mt-tabbar v-model="selected" fixed>
       <mt-tab-item id="首页">
-        <img slot="icon" src="../../assets/logo.png">
+        <img slot="icon" src="../../common/image/logo.png">
         首页
       </mt-tab-item>
       <mt-tab-item id="投资">
-        <img slot="icon" src="../../assets/logo.png">
+        <img slot="icon" src="../../common/image/logo.png">
         投资
       </mt-tab-item>
       <mt-tab-item id="论坛">
-        <img slot="icon" src="../../assets/logo.png">
+        <img slot="icon" src="../../common/image/logo.png">
         论坛
       </mt-tab-item>
       <mt-tab-item id="我的">
-        <img slot="icon" src="../../assets/logo.png">
+        <img slot="icon" src="../../common/image/logo.png">
         我的
       </mt-tab-item>
       <mt-tab-item id="更多">
-        <img slot="icon" src="../../assets/logo.png">
+        <img slot="icon" src="../../common/image/logo.png">
         更多
       </mt-tab-item>
     </mt-tabbar>

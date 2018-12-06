@@ -5,31 +5,31 @@
     </keep-alive>
     <mt-tabbar v-model="selected" fixed>
       <mt-tab-item id="首页">
-        <img slot="icon" src="src/assets/logo.png">
+        <img slot="icon" src="./common/image/logo.png">
         <router-link to="/homepage/goods">
           首页
         </router-link>
       </mt-tab-item>
       <mt-tab-item id="投资">
-        <img slot="icon" src="src/assets/logo.png">
+        <img slot="icon" src="./common/image/logo.png">
         <router-link to="/investmentpage/">
           投资
         </router-link>
       </mt-tab-item>
       <mt-tab-item id="论坛">
-        <img slot="icon" src="src/assets/logo.png">
+        <img slot="icon" src="./common/image/logo.png">
         <router-link to="/forumpage">
           论坛
         </router-link>
       </mt-tab-item>
       <mt-tab-item id="我的">
-        <img slot="icon" src="src/assets/logo.png">
+        <img slot="icon" src="./common/image/logo.png">
         <router-link to="/mypage">
           我的
         </router-link>
       </mt-tab-item>
       <mt-tab-item id="更多">
-        <img slot="icon" src="src/assets/logo.png">
+        <img slot="icon" src="./common/image/logo.png">
         <router-link to="/morepage">
           更多
         </router-link>
