@@ -7,7 +7,7 @@
     <!-- tabcontainer -->
     <mt-tab-container class="page-tabbar-container" v-model="selected">
       <mt-tab-container-item id="首页">
-         首页
+        首页
       </mt-tab-container-item>
       <mt-tab-container-item id="投资">
         投资
