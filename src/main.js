@@ -5,11 +5,18 @@ import i18n from 'common/i18n/index.js';
 import router from './router/index.js';
 import 'common/stylus/index.styl';
 import 'lib-flexible';
+// 引入mintui
 import Mint from 'mint-ui';
 import 'mint-ui/lib/style.css';
 // 引入echarts
 import echarts from 'echarts';
-// 引入mintui
+/* eslint-disable no-unused-vars */
+import world from './directive';
+
+// 导入全局插件
+// import barchart from './barchartplugin';
+// Vue.use(barchart);
+
 Vue.use(Mint);
 Vue.prototype.$echarts = echarts;
 Vue.use(VueResource);
